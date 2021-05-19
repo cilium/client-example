@@ -2,52 +2,25 @@
 
 Simple example illustrating use of the Cilium API.
 
-See [Cilium API reference](http://docs.cilium.io/en/stable/api/) for further
+See [Cilium API reference](https://docs.cilium.io/en/stable/api/) for further
 documentation on use of the API.
+
+Repository that contains a "Hello World" source code for all Cilium minor
+versions.
+
+Each directory has its own `vendor/` directory, and the clients can be compiled
+for each Cilium version.
 
 ## Example Client Output
 
-Note: As the cilium-agent is running as privileged process, the client must be
-running as privileged process as well or the process must belong to group
-`cilium`.
-
-
-    $  sudo ./client-example
-    ------------------------------------------------------------------------------
-    Agent configuration:
-    ------------------------------------------------------------------------------
-    {
-      "addressing": {
-        "ipv4": {
-          "alloc-range": "10.15.0.0/16",
-          "enabled": true,
-          "ip": "10.15.28.238"
-        },
-        "ipv6": {
-          "alloc-range": "f00d::a00:20f:0:0/112",
-          "enabled": true,
-          "ip": "f00d::a00:20f:0:8ad6"
-        }
-      },
-      "configuration": {
-        "mutable": {
-          "Conntrack": "Enabled",
-          "ConntrackAccounting": "Enabled",
-          "ConntrackLocal": "Disabled",
-          "Debug": "Enabled",
-          "DropNotification": "Enabled",
-          "PolicyTracing": "Disabled",
-          "TraceNotification": "Enabled"
-        }
-      },
-      "nodeMonitor": {
-        "cpus": 2,
-        "npages": 64,
-        "pagesize": 4096
-      },
-      "policy-enforcement": "default"
-    }
-    ------------------------------------------------------------------------------
-    List of running endpoints:
-    ------------------------------------------------------------------------------
-       62006    musing_saha    10.15.116.202             f00d::a00:20f:0:f236
+```bash
+$ cd latest
+$ go build ./main.go
+$ ./main 
+EP ID 10 has IP addresses: 10.17.138.46
+EP ID 387 has IP addresses: 10.17.165.167
+EP ID 2170 has IP addresses: 10.17.145.34
+EP ID 2374 has IP addresses: 10.17.111.212
+EP ID 2399 has IP addresses: 10.17.200.251
+EP ID 3400 does not have an IP address
+```

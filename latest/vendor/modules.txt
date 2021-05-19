@@ -1,0 +1,135 @@
+# github.com/PuerkitoBio/purell v1.1.1
+github.com/PuerkitoBio/purell
+# github.com/PuerkitoBio/urlesc v0.0.0-20170810143723-de5bf2ad4578
+github.com/PuerkitoBio/urlesc
+# github.com/asaskevich/govalidator v0.0.0-20200907205600-7a23bdc65eef
+github.com/asaskevich/govalidator
+# github.com/cilium/cilium v1.10.0-rc0.0.20210518163819-4a831f48ea9c
+## explicit
+github.com/cilium/cilium/api/v1/client
+github.com/cilium/cilium/api/v1/client/daemon
+github.com/cilium/cilium/api/v1/client/endpoint
+github.com/cilium/cilium/api/v1/client/ipam
+github.com/cilium/cilium/api/v1/client/metrics
+github.com/cilium/cilium/api/v1/client/policy
+github.com/cilium/cilium/api/v1/client/prefilter
+github.com/cilium/cilium/api/v1/client/recorder
+github.com/cilium/cilium/api/v1/client/service
+github.com/cilium/cilium/api/v1/models
+github.com/cilium/cilium/pkg/api
+github.com/cilium/cilium/pkg/client
+github.com/cilium/cilium/pkg/defaults
+github.com/cilium/cilium/pkg/endpoint/id
+github.com/cilium/cilium/pkg/labels
+github.com/cilium/cilium/pkg/logging
+github.com/cilium/cilium/pkg/logging/logfields
+# github.com/fsnotify/fsnotify v1.4.10-0.20200417215612-7f4cf4dd2b52
+github.com/fsnotify/fsnotify
+# github.com/go-logr/logr v0.4.0
+github.com/go-logr/logr
+# github.com/go-openapi/analysis v0.19.16
+github.com/go-openapi/analysis
+github.com/go-openapi/analysis/internal
+# github.com/go-openapi/errors v0.19.9
+github.com/go-openapi/errors
+# github.com/go-openapi/jsonpointer v0.19.5
+github.com/go-openapi/jsonpointer
+# github.com/go-openapi/jsonreference v0.19.5
+github.com/go-openapi/jsonreference
+# github.com/go-openapi/loads v0.20.2
+github.com/go-openapi/loads
+# github.com/go-openapi/runtime v0.19.26
+github.com/go-openapi/runtime
+github.com/go-openapi/runtime/client
+github.com/go-openapi/runtime/logger
+github.com/go-openapi/runtime/middleware
+github.com/go-openapi/runtime/middleware/denco
+github.com/go-openapi/runtime/middleware/header
+github.com/go-openapi/runtime/middleware/untyped
+github.com/go-openapi/runtime/security
+github.com/go-openapi/runtime/yamlpc
+# github.com/go-openapi/spec v0.20.3
+github.com/go-openapi/spec
+# github.com/go-openapi/strfmt v0.20.0
+github.com/go-openapi/strfmt
+# github.com/go-openapi/swag v0.19.14
+github.com/go-openapi/swag
+# github.com/go-openapi/validate v0.20.1
+github.com/go-openapi/validate
+# github.com/go-stack/stack v1.8.0
+github.com/go-stack/stack
+# github.com/hashicorp/hcl v1.0.0
+github.com/hashicorp/hcl
+github.com/hashicorp/hcl/hcl/ast
+github.com/hashicorp/hcl/hcl/parser
+github.com/hashicorp/hcl/hcl/printer
+github.com/hashicorp/hcl/hcl/scanner
+github.com/hashicorp/hcl/hcl/strconv
+github.com/hashicorp/hcl/hcl/token
+github.com/hashicorp/hcl/json/parser
+github.com/hashicorp/hcl/json/scanner
+github.com/hashicorp/hcl/json/token
+# github.com/josharian/intern v1.0.0
+github.com/josharian/intern
+# github.com/magiconair/properties v1.8.1
+github.com/magiconair/properties
+# github.com/mailru/easyjson v0.7.6
+github.com/mailru/easyjson/buffer
+github.com/mailru/easyjson/jlexer
+github.com/mailru/easyjson/jwriter
+# github.com/mitchellh/mapstructure v1.4.1
+github.com/mitchellh/mapstructure
+# github.com/opentracing/opentracing-go v1.2.0
+github.com/opentracing/opentracing-go
+github.com/opentracing/opentracing-go/ext
+github.com/opentracing/opentracing-go/log
+# github.com/pelletier/go-toml v1.7.0
+github.com/pelletier/go-toml
+# github.com/sirupsen/logrus v1.7.0
+github.com/sirupsen/logrus
+github.com/sirupsen/logrus/hooks/syslog
+# github.com/spf13/afero v1.3.4
+github.com/spf13/afero
+github.com/spf13/afero/mem
+# github.com/spf13/cast v1.3.0
+github.com/spf13/cast
+# github.com/spf13/jwalterweatherman v1.0.0
+github.com/spf13/jwalterweatherman
+# github.com/spf13/pflag v1.0.5
+github.com/spf13/pflag
+# github.com/spf13/viper v1.7.1
+github.com/spf13/viper
+# github.com/subosito/gotenv v1.2.0
+github.com/subosito/gotenv
+# go.mongodb.org/mongo-driver v1.4.6
+go.mongodb.org/mongo-driver/bson
+go.mongodb.org/mongo-driver/bson/bsoncodec
+go.mongodb.org/mongo-driver/bson/bsonoptions
+go.mongodb.org/mongo-driver/bson/bsonrw
+go.mongodb.org/mongo-driver/bson/bsontype
+go.mongodb.org/mongo-driver/bson/primitive
+go.mongodb.org/mongo-driver/x/bsonx/bsoncore
+# golang.org/x/net v0.0.0-20210504132125-bbd867fde50d
+golang.org/x/net/idna
+# golang.org/x/sys v0.0.0-20210503173754-0981d6026fa6
+golang.org/x/sys/internal/unsafeheader
+golang.org/x/sys/unix
+golang.org/x/sys/windows
+# golang.org/x/text v0.3.6
+golang.org/x/text/secure/bidirule
+golang.org/x/text/transform
+golang.org/x/text/unicode/bidi
+golang.org/x/text/unicode/norm
+golang.org/x/text/width
+# golang.org/x/time v0.0.0-20210220033141-f8bda1e9f3ba
+golang.org/x/time/rate
+# gopkg.in/ini.v1 v1.62.0
+gopkg.in/ini.v1
+# gopkg.in/yaml.v2 v2.4.0
+gopkg.in/yaml.v2
+# k8s.io/klog/v2 v2.8.0
+k8s.io/klog/v2
+# github.com/miekg/dns => github.com/cilium/dns v1.1.4-0.20190417235132-8e25ec9a0ff3
+# github.com/optiopay/kafka => github.com/cilium/kafka v0.0.0-20180809090225-01ce283b732b
+# go.universe.tf/metallb => github.com/cilium/metallb v0.1.1-0.20210402175553-310946fff4b4
+# sigs.k8s.io/controller-tools => github.com/christarazi/controller-tools v0.3.1-0.20200911184030-7e668c1fb4c2
